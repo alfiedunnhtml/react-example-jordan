@@ -39,22 +39,6 @@ const Footer: React.FC = () => {
               <li>hello@jordansbakery.co.uk</li>
             </ul>
           </div>
-
-          {/* Newsletter */}
-          <div>
-            <h4 className="text-lg font-bold mb-6 text-white">Stay in the loop</h4>
-            <p className="text-bakery-200/80 mb-4">Subscribe for seasonal specials.</p>
-            <div className="flex gap-2">
-              <input 
-                type="email" 
-                placeholder="Enter your email" 
-                className="bg-bakery-800 text-white placeholder-bakery-400 px-4 py-2 rounded-lg w-full focus:outline-none focus:ring-1 focus:ring-bakery-400"
-              />
-              <button className="bg-white text-bakery-900 px-4 py-2 rounded-lg font-medium hover:bg-bakery-100 transition-colors">
-                Join
-              </button>
-            </div>
-          </div>
         </div>
 
         <div className="border-t border-bakery-800 pt-8 text-center text-bakery-400 text-sm">

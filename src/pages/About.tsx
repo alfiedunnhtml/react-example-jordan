@@ -29,7 +29,7 @@ const About: React.FC = () => {
               <h2 className="text-3xl font-bold text-bakery-900">The Beginning</h2>
               <div className="w-16 h-1 bg-bakery-800"></div>
               <p className="text-bakery-700 leading-relaxed">
-                It all started in 2024 with a sourdough starter named "Bubbles" and a dream. Jordan, a former software engineer, found solace in the slow, rhythmic process of bread making during the weekends.
+                It all started in 2026 with a sourdough starter named "Bubbles" and a dream. Jordan, a former software engineer, found solace in the slow, rhythmic process of bread making during the weekends.
               </p>
               <p className="text-bakery-700 leading-relaxed">
                 What began as a hobby quickly turned into an obsession. Friends and neighbors started asking for loaves, and soon, the demand outgrew the capacity of a standard home oven.

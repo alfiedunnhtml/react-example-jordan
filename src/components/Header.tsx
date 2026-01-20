@@ -52,9 +52,6 @@ const Header: React.FC = () => {
           >
             Our Story
           </Link>
-          <button className="bg-bakery-800 text-white px-6 py-2.5 rounded-full text-sm font-medium hover:bg-bakery-900 transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5">
-            Order Online
-          </button>
         </nav>
       </div>
     </header>

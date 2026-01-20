@@ -16,7 +16,7 @@ const Home: React.FC = () => {
         </div>
         
         <div className="container mx-auto px-6 relative z-10 text-center max-w-4xl">
-          <span className="block text-bakery-600 font-medium tracking-[0.2em] uppercase mb-4 animate-fade-in-up">Est. 2024</span>
+          <span className="block text-bakery-600 font-medium tracking-[0.2em] uppercase mb-4 animate-fade-in-up">Est. 2026</span>
           <h1 className="text-5xl md:text-7xl font-bold text-bakery-900 mb-8 leading-tight animate-fade-in-up delay-100">
             Artisan Baking <br />
             <span className="italic font-serif text-bakery-700">Reimagined</span>
@@ -31,9 +31,6 @@ const Home: React.FC = () => {
             >
               Discover Our Story
             </Link>
-            <button className="px-8 py-4 bg-white text-bakery-800 border-2 border-bakery-200 rounded-full font-medium hover:border-bakery-800 hover:bg-bakery-50 transition-all">
-              View Menu
-            </button>
           </div>
         </div>
       </section>
@@ -97,9 +94,6 @@ const Home: React.FC = () => {
                   <span className="text-bakery-800 font-semibold">£3.50</span>
                 </div>
                 <p className="text-bakery-600 mb-6">27 layers of pure butter and dough, baked to a golden crisp.</p>
-                <button className="w-full py-3 border border-bakery-200 text-bakery-800 rounded-lg hover:bg-bakery-800 hover:text-white transition-colors font-medium">
-                  Add to Order
-                </button>
               </div>
             </div>
 
@@ -118,9 +112,6 @@ const Home: React.FC = () => {
                   <span className="text-bakery-800 font-semibold">£6.50</span>
                 </div>
                 <p className="text-bakery-600 mb-6">Our signature sourdough with whole wheat and rye flour blend.</p>
-                <button className="w-full py-3 border border-bakery-200 text-bakery-800 rounded-lg hover:bg-bakery-800 hover:text-white transition-colors font-medium">
-                  Add to Order
-                </button>
               </div>
             </div>
 
@@ -139,9 +130,6 @@ const Home: React.FC = () => {
                   <span className="text-bakery-800 font-semibold">£4.25</span>
                 </div>
                 <p className="text-bakery-600 mb-6">Flaky pastry topped with vanilla custard and fresh market berries.</p>
-                <button className="w-full py-3 border border-bakery-200 text-bakery-800 rounded-lg hover:bg-bakery-800 hover:text-white transition-colors font-medium">
-                  Add to Order
-                </button>
               </div>
             </div>
           </div>
