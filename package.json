@@ -1,20 +1,24 @@
 {
+  "//_description": "This is the heart of your project. it lists all the packages your app needs to run.",
   "name": "react-example-jordan",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "//_scripts": "These are shortcuts for common commands. Run them with 'npm run <name>'",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "//_deps": "These are the main tools your website needs to work in the browser.",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.12.0"
   },
   "devDependencies": {
+    "//_devDeps": "These are tools used only during development (like building or checking for errors).",
     "@eslint/js": "^9.39.1",
     "@tailwindcss/vite": "^4.1.18",
     "@types/node": "^24.10.1",

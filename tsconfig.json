@@ -1,21 +1,31 @@
 {
+  /* 
+    TSCONFIG.JSON
+    This file tells the TypeScript compiler how to turn your .ts/.tsx files into JavaScript.
+  */
   "compilerOptions": {
+    // The version of JavaScript we want the output to be compatible with
     "target": "ESNext",
     "useDefineForClassFields": true,
+    // Libraries that TypeScript should assume are available (Browser APIs, etc.)
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "allowJs": false,
     "skipLibCheck": true,
-    "esModuleInterop": false,
+    "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
+    // Enable "Strict Mode" to catch more potential bugs
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "module": "ESNext",
-    "moduleResolution": "Node",
+    // Tells TypeScript how to find the files you're importing
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
+    // Tells TypeScript we are using React
     "jsx": "react-jsx",
-    "types": ["vite/client"]
+    "types": ["vite/client", "node"]
   },
   "include": ["src", "vite.config.ts"]
 }
